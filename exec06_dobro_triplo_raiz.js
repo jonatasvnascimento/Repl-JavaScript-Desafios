@@ -5,8 +5,12 @@ let result = document.getElementById('result')
 
 function soma(camp1) {
   let dobro = parseInt(camp1) * 2
+  let triplo = parseInt(camp1) * 3
+  let raiz = Math.sqrt(parseFloat(camp1))
   dados = {
-    dobro
+    dobro,
+    triplo,
+    raiz
   }
   return dados
 }
